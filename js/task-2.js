@@ -1,3 +1,4 @@
+"use strict";
 function makeArray(firstArray, secondArray, maxLength) {
   const result = firstArray.concat(secondArray);
   return result.slice(0, maxLength);
